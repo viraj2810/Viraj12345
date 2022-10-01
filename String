@@ -65,6 +65,31 @@ public class String_methods
 		System.out.println(S8.replace("Manual", "Automation"));//Automation Classes
 		
 		
+		
+1. Variables & Data types
+2. Keywords & Identifiers
+3. Methods
+4. Constructor
+5. Control Statements
+6. Loops
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 	
 	
