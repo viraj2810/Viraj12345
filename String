@@ -1,0 +1,76 @@
+package String;
+
+public class String_methods 
+{
+	public static void main(String[] args) 
+	{
+		String S1="velocity";
+		String S2="";
+		String S3="ABCD";
+		String S4="VELOCITY";
+		String S5="city";
+		String S6="abcabab";
+		String S7="classes";
+		String S8="Manual Classes";
+			
+		//To get size/length
+		System.out.println(S1.length());//8
+		
+		//to verify S1,S2 is empty or not
+		System.out.println(S1.isEmpty());//False
+		System.out.println(S2.isEmpty());//true
+		
+		//To convert into Uppercase
+		System.out.println(S1.toUpperCase());//VELOCITY
+		
+		//To convert into Lowercase
+		System.out.println(S3.toLowerCase());//abcd
+		
+		//Compare S1 and S4
+		System.out.println(S1.equals(S4));//false
+		
+		//Compare S1 and S4
+		System.out.println(S1.equalsIgnoreCase(S4));//true
+		
+		//Compare S1 and S5
+		System.out.println(S1.contains(S5));//true
+		
+		//to get single character
+		System.out.println(S1.charAt(4));//c
+		
+		//To verify String S1 starts with "ve"	
+		System.out.println(S1.startsWith("ve"));//true
+		
+		//To verify String S1 ends with "ty"	
+		System.out.println(S1.endsWith("ty"));//true
+		
+		//To get index of character
+		System.out.println(S1.indexOf('c'));//4
+		
+		//To get index of character
+		System.out.println(S6.lastIndexOf('a'));//5
+		
+		//to get substring
+		System.out.println(S1.substring(4));//city
+		
+		//to get substring
+		System.out.println(S1.substring(4,7));//cit
+		
+		//to concate S1 and S7
+		System.out.println(S1+S7);//velocityclasses
+		System.out.println(S1.concat(S7));//velocityclasses
+		
+		
+		//to replace
+		System.out.println(S8.replace("Manual", "Automation"));//Automation Classes
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}
